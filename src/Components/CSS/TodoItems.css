@@ -1,0 +1,43 @@
+.todoitems {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    align-items: center;
+    border-bottom: 2px solid #ffbdd4;
+    border-radius: 10px;
+}
+
+.todoitems:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.todoitems-container {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px;
+}
+
+.todoitems-text {
+    padding-left: 12px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+
+.todoitems-cross-icon {
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.line-through {
+    text-decoration: line-through solid #fffdfd 2px;
+}
+.icon-container {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
